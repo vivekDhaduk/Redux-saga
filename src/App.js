@@ -21,7 +21,7 @@ function App() {
       <hr />
       <div className='gallery'>
         {cats.map((cat) => (
-          <div key={cat.id} className="row">
+          <div key={cat.id} className="row" data-aos="fade-right">
             <div className='column column-left'>
               <img 
               alt={cat.name}
